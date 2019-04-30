@@ -39,3 +39,24 @@ header{
 .top-wrapper>.container p{
     font-size: 20px;
 }
+
+.album-wrapper{
+    margin: 20px 10px;
+}
+
+.member{
+    width:25%;
+    text-align: center;
+}
+
+.personal_img{
+    border-radius: 50%;
+}
+
+h2{
+    margin: auto 70px;
+    font-family: serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+    border:black solid 1px;
+}
