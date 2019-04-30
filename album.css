@@ -46,7 +46,7 @@ header{
 
 .member{
     float:left;
-    margin: 10px 0px;
+    padding: 20px 0px;
     width:25%;
     text-align: center;
     display: inline-block;
@@ -64,4 +64,11 @@ h2{
     font-family: serif;
     font-size: 50px;
     border:black solid 1px;
+    background-color:white;
+}
+
+.member:hover{
+    background-color:rgb(228, 239, 241);
+    /* border-left:rgb(151, 204, 248) solid 0.5px;
+    border-right:rgb(151, 204, 248) solid 0.5px; */
 }
