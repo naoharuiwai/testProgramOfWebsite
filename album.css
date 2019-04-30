@@ -41,22 +41,27 @@ header{
 }
 
 .album-wrapper{
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .member{
+    float:left;
+    margin: 10px 0px;
     width:25%;
     text-align: center;
+    display: inline-block;
 }
 
 .personal_img{
+    height:300px;
+    width:300px;
+    /* margin:10px */
     border-radius: 50%;
 }
 
 h2{
-    margin: auto 70px;
+    margin: auto 30px;
     font-family: serif;
     font-size: 50px;
-    padding-bottom: 10px;
     border:black solid 1px;
 }
