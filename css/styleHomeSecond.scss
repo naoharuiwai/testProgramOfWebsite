@@ -1,0 +1,87 @@
+/* Change overall appearance */
+body{
+  padding: 0;
+  margin: 0;
+}
+
+/* Specify appearance of header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0;
+  margin: 0;
+}
+  
+.headerContents{
+  position: relative;
+  vertical-align: center;
+}
+
+.headerContent{
+  margin: auto;
+  height: 80%;
+  width: 12%;
+  float: left;
+  display: table-cell;
+  color: #ffffff;
+  text-align: center;
+
+  a {
+    font-size: 20px;
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+
+/* Specify appearance of main contents*/
+main{
+  margin: 50px.0 60px 0;
+  height: 100%;
+  width: 100%;
+
+  .slidingImgsCont{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .slidingImgs{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+.slidingImgs{
+  display: none;
+}
+
+.contents {
+  text-align: center;
+  width: 600px;
+  height: 120px;
+  margin: auto;
+}
+
+.content {
+  display: block;
+  border: none;
+  padding: 3px;
+  margin: 8px auto 8px auto;
+  width: 100px;
+  background: #3cb371;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Specify appearance of header*/
+footer {
+}
