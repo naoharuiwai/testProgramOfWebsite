@@ -50,6 +50,8 @@ header{
     width:25%;
     text-align: center;
     display: inline-block;
+    text-decoration:none;
+    color:black;
 }
 
 .personal_img{
