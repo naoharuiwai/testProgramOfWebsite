@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+.top-wrapper {
+    margin: 0px;
+    height: 400px;
+    background-image: url(../images_Home/image3.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper .FY {
+    margin: 0px;
+    padding: 100px 0px 10px 0px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper .topPage {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.bg-image {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-mask {
+    margin: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+/*ここから新卒を見るボタン部分*/
+.wrapper {
+    margin: 0px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 30px;
+    width: 300px;
+    background-color: #00CC99;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
+
+.btn p {
+    margin: 0px;
+    color: #DDDDDD;
+    font-size: 24px;
+
+}
+
+
+
+/*モーダル部分のCSS*/
+
+.warning-modal-wrapper {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+
+    display: none;
+
+}
+
+.modal {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FFD700;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-container h1 {
+    color: red;
+    margin: 0px;
+    font-size: 64px;
+}
+
+.btn-warning {
+    display: inline-block;
+    font-size: 36px;
+    margin: 40px 5px;
+    width: 150px;
+    background-color: red;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.btn-warning:hover {
+    opacity: 1.0;
+}
+
+/*# sourceMappingURL=homestyles.css.map */
