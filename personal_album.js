@@ -1,7 +1,6 @@
-alert(location.href);
+window.onload=function(){
+    var personal_name=decodeURIComponent(location.search.split('=')[1]);
+    alert(personal_name);
 
-// $(function(){
-//     $('top-wrapper').click(function(){
-//         document.write(alert(location.href));
-//     });
-// });
+    
+}
