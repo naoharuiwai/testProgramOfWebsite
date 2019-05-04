@@ -40,3 +40,20 @@ header{
 .top-wrapper>.container p{
     font-size: 20px;
 }
+
+.images{
+    padding:0px 0px;
+}
+
+.image{
+    /* height:25%; */
+    width:20%;
+}
+
+.iwai{
+    display:none;
+}
+
+.itabashi{
+    display:none;
+}
