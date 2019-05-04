@@ -42,12 +42,15 @@ header{
 }
 
 .images{
-    padding:0px 0px;
+    padding:5px 5px;
+    /* margin: 10px 10px; */
 }
 
 .image{
-    /* height:25%; */
-    width:20%;
+    float:left;
+    height:200px;
+    padding:3px 3px;
+    display:clear;
 }
 
 .iwai{
@@ -56,4 +59,12 @@ header{
 
 .itabashi{
     display:none;
+}
+
+.sugimoto{
+    display:none;
+}
+
+.active{
+    display:inline-block;
 }
