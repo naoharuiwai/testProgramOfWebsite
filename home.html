@@ -5,15 +5,39 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <!--<meta name="Author" content="" /><--->
-    <link rel="stylesheet" href="homestyles.css">
+    <link rel="stylesheet" href="CSS_Home/homestyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="top-wrapper">
-        <div class="container">
-            <h1 class="topText">FY19 新卒サイト</h1>
+    <div class="warning-modal-wrapper" id="warning-modal">
+        <div class="modal">
+            <div class="modal-container">
+                <h1>Warning!</h1>
+                <p>この先は18歳以上のみ閲覧可能です。</p>
+                <p>あなたは18歳以上ですか？</p>
+                <div class="btn-warning" id="yes">はい</div>
+                <div class="btn-warning" id="no">いいえ</div>
+            </div>
         </div>
     </div>
 
+    <div class="top-wrapper">
+        <div class="bg-image">
+            <div class="bg-mask">
+                <h1 class="FY">FY19 新卒サイト</h1>
+                <h1 class="topPage">トップページ</h1>
+            </div>
+        </div>
+    </div>
 
-</body></html>
+    <div class="wrapper">
+        <div class="btn" id="btnClick">
+            <p>新卒を見る</p>
+        </div>
+    </div>
+
+    <script src="JavaScript_Home/home.js"></script>
+</body>
+
+</html>
