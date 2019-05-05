@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    padding:0px 20px;
+    font-size:0;
+    background-color: #3c3e41;
+}
+
+.link-btn{
+    color: white;
+    background-color:rgba(255, 255, 255, 0.3);
+    height:70px;
+    width:120px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-right:1px solid white;
+    border-left:1px solid white;
+}
+
+.link-btn:hover{
+    background-color:rgba(255, 255, 255, 0.6);    
+}
+
+.top-wrapper>.container{
+    padding: 10px 10px;
+    border-bottom:1px solid grey;
+}
+
+.top-wrapper>.container h1{
+    font-size: 40px;
+}
+
+.top-wrapper>.container p{
+    font-size: 20px;
+}
+
+.album-wrapper{
+    margin: 10px 10px;
+}
+
+.member{
+    float:left;
+    padding: 20px 0px;
+    width:25%;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none;
+    color:black;
+}
+
+.personal_img{
+    height:200px;
+    width:200px;
+    /* margin:10px */
+    border:2px solid white;
+    border-radius: 50%;
+}
+
+h2{
+    margin: auto 30px;
+    font-family: serif;
+    font-size: 50px;
+    border:black solid 1px;
+    background-color:white;
+}
+
+.member:hover{
+    background-color:rgb(228, 239, 241);
+    /* border-left:rgb(151, 204, 248) solid 0.5px;
+    border-right:rgb(151, 204, 248) solid 0.5px; */
+}
